@@ -1,0 +1,88 @@
+.Carrito{
+    margin: 50px;
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.Detalle{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+li div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+    font-size: 25px;
+}
+
+li img{
+    padding: 10px;
+    width: 180px;
+}
+
+h2, h3{
+    margin: 0px;
+    padding: 15px;
+    font-size: 32px;
+}
+
+.productos{
+    display: flex;
+}
+
+.Pagar{
+    margin: 10px 25px;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+
+.cantidades{
+    display: flex;
+    justify-content: end;
+}
+
+.cantidades .mas{
+    color: white;
+    font-size: 25px;
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: green;
+    border: 1px solid green;
+}
+
+.cantidades .menos{
+    color: white;
+    font-size: 25px;
+    width: 30px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+}

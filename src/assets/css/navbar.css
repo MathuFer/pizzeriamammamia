@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(23, 162, 184);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav .link{
+    color: white;
+    text-decoration: none;
+}
+
+nav .carrito{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(3, 95, 109);
+}

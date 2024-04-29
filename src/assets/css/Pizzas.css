@@ -1,0 +1,53 @@
+.card {
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+.card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+.card-body {
+    padding: 10px;
+  }
+  
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+.card-text {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: dotted;
+  }
+
+.ingredients-list{
+    list-style: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.vermas{
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(23, 162, 184);
+    border: 1px solid rgb(23, 162, 184) 
+}
+.añadir{
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(253, 37, 37);
+    border: 1px solid rgb(253, 37, 37);
+}
+
